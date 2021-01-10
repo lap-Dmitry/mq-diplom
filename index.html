@@ -11,7 +11,7 @@
     <header class="header">
   <div class="container">
     <div class="container-box">
-      <img src="svg/noemi-logo.svg" class="header-logo" alt="Логотип фирмы">
+      <a class="logo-link" href="#0"><img src="svg/noemi-logo.svg" class="header-logo" alt="Логотип фирмы"></a>
       <nav class="menu">
         <ul class="menu-list">
           <li class="menu-list-item">
@@ -38,6 +38,41 @@
     <h1 class="header-title">Блог о творчестве, спорте, и образе жизни</h1>
   </div>
 </header>
+<div class="popup-overlay">
+<div class="popup">
+   <button class="popup__close" type="button"><img src="svg/form-x.svg"></button>
+  <h2 class="name-openForm">Ваш фидбек</h2>
+  <div class="form-popup-container">
+    <div class="form-group">
+      <label class="select-group">
+        <span class="select-label">Как часто вы заходите на сайт?</span>
+        <select class="select">
+          <option value="0" selected>Почти каждый день</option>
+          <option value="1">Раз в несколько дней</option>
+          <option value="2">Раз в несколько недель</option>
+          <option value="3">Несколько раз в год</option>
+        </select>
+      </label>
+    </div>
+    <div class="form-group">
+      <span class="form-hint">Вы подписаны на e-mail рассылку?</span>
+      <label class="radio-group">
+        <input type="radio" class="radio" name="radio-group">
+        <span class="radio-group-text">Да</span>
+      </label>
+      <label class="radio-group">
+        <input type="radio" class="radio" name="radio-group">
+        <span class="radio-group-text">Нет</span>
+      </label>
+    </div>
+    <div class="form-group">
+      <span class="form-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+      <textarea class="field textarea" placeholder="Может, больше рецептов?" required></textarea>
+    </div>
+    <button type="submit" class="btn">Отправить</button>
+     </div>
+</div>
+  </div>
 <div class="trend">
     <div class="title1">
       <h2 class="titles1">Cейчас в тренде</h2>
