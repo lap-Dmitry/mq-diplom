@@ -34,6 +34,11 @@
           </li>
         </ul>
       </nav>
+      <div class="burg">
+        <div class="hamburger_menu"></div>
+        <div class="hamburger_menu"></div>
+        <div class="hamburger_menu"></div>
+      </div>
     </div>
     <h1 class="header-title">Блог о творчестве, спорте, и образе жизни</h1>
   </div>
@@ -384,7 +389,14 @@
   <h2 class="shop-title">Наши изделия</h2>
   <div class="shop-container">
     <div class="shops">
-      <div class="shop-card"> <img class="shop-card-img" src="images/shop-item-desk1.jpg"></div>
+      <picture class="shop-card">
+        <source media="(max-width: 640px)"
+           srcset="images/shop-item-mobile1.jpg">
+        <source media="(min-width:641px) and (max-width: 1200px)"
+           srcset="images/shop-item-tablet1.jpg">
+        <source media="(min-width: 1201px)"
+           srcset="images/shop-item-desk1.jpg">
+               <img class="shop-card-img" src="shop-card-img" srcset= "images/shop-item-desk1.jpg, images/shop-item-tablet1.jpg, images/shop-item-mobile1.jpg"></picture>
       <div class="shop-content">
         <h3 class="shop-name">Подушки на диван</h3>
         <div class="shop-text"><p>Набор из двух подушек с модными принтами. Видео о создании<a class="shop-link" href="#0"> здесь</a>.</p></div>
@@ -400,7 +412,14 @@
             </div>
                     </div>
             <div class="shops">
-              <div class="shop-card"> <img class="shop-card-img" src="images/shop-item-desk2.jpg"></div>
+              <picture class="shop-card">
+                <source media="(max-width: 640px)"
+                   srcset="images/shop-item-mobile2.jpg">
+                <source media="(min-width:641px) and (max-width: 1200px)"
+                   srcset="images/shop-item-tablet2.jpg">
+                <source media="(min-width: 1201px)"
+                   srcset="images/shop-item-desk2.jpg">
+                       <img class="shop-card-img" src="shop-card-img" srcset= "images/shop-item-desk2.jpg, images/shop-item-tablet2.jpg, images/shop-item-mobile2.jpg"></picture>
               <div class="shop-content">
                 <h3 class="shop-name">Кукла	«зайчик»</h3>
                 <div class="shop-text"><p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена<a class="shop-link" href="#0"> весенняя серия постов</a> в блоге и несколько подкастов.</p></div>
@@ -415,7 +434,14 @@
                                       </div>
                 </div>
                 <div class="shops">
-                  <div class="shop-card"> <img class="shop-card-img" src="images/shop-item-desk3.jpg"></div>
+                  <picture class="shop-card">
+                    <source media="(max-width: 640px)"
+                       srcset="images/shop-item-mobile3.jpg">
+                    <source media="(min-width:641px) and (max-width: 1200px)"
+                       srcset="images/shop-item-tablet3.jpg">
+                    <source media="(min-width: 1201px)"
+                       srcset="images/shop-item-desk3.jpg">
+                           <img class="shop-card-img" src="shop-card-img" srcset= "images/shop-item-desk3.jpg, images/shop-item-tablet3.jpg, images/shop-item-mobile3.jpg"></picture>
                   <div class="shop-content">
                     <h3 class="shop-name">Шестиугольная рамка</h3>
                     <div class="shop-text"><p>Необычная рамка для украшения дома из видео<a class="shop-link" href="#0"> «Как сделать рамку из подручных средств за 30 минут»</a></p></div>
